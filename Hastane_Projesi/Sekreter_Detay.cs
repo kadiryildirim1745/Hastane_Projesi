@@ -155,5 +155,7 @@ namespace Hastane_Projesi
         {
             Application.Exit();
         }
+
+        
     }
 }

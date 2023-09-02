@@ -40,15 +40,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -197,15 +193,11 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.checkBox1);
-            this.groupBox3.Controls.Add(this.maskedTextBox3);
             this.groupBox3.Controls.Add(this.comboBox2);
             this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Controls.Add(this.maskedTextBox2);
             this.groupBox3.Controls.Add(this.maskedTextBox1);
             this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label9);
@@ -222,7 +214,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(105, 309);
+            this.button5.Location = new System.Drawing.Point(105, 294);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 35);
             this.button5.TabIndex = 18;
@@ -230,27 +222,10 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.Location = new System.Drawing.Point(105, 276);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(102, 34);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(105, 238);
-            this.maskedTextBox3.Mask = "00000000000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(117, 29);
-            this.maskedTextBox3.TabIndex = 16;
-            this.maskedTextBox3.ValidatingType = typeof(int);
-            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(105, 197);
+            this.comboBox2.Location = new System.Drawing.Point(105, 218);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(117, 31);
             this.comboBox2.TabIndex = 15;
@@ -258,7 +233,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(105, 158);
+            this.comboBox1.Location = new System.Drawing.Point(105, 179);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(118, 31);
             this.comboBox1.TabIndex = 14;
@@ -266,7 +241,7 @@
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(105, 122);
+            this.maskedTextBox2.Location = new System.Drawing.Point(105, 143);
             this.maskedTextBox2.Mask = "90:00";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(117, 29);
@@ -275,7 +250,7 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(105, 82);
+            this.maskedTextBox1.Location = new System.Drawing.Point(105, 103);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(117, 29);
@@ -284,38 +259,15 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, 43);
+            this.textBox1.Location = new System.Drawing.Point(105, 64);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(117, 29);
             this.textBox1.TabIndex = 11;
             // 
-            // label13
-            // 
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(9, 276);
-            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(87, 30);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "Durum:";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Georgia", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(9, 237);
-            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(87, 30);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "Hasta TC:";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // label11
             // 
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(9, 159);
+            this.label11.Location = new System.Drawing.Point(9, 180);
             this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(87, 30);
@@ -326,7 +278,7 @@
             // label10
             // 
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(9, 198);
+            this.label10.Location = new System.Drawing.Point(9, 219);
             this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(87, 30);
@@ -337,7 +289,7 @@
             // label9
             // 
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(9, 121);
+            this.label9.Location = new System.Drawing.Point(9, 142);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 30);
@@ -348,7 +300,7 @@
             // label8
             // 
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(9, 81);
+            this.label8.Location = new System.Drawing.Point(9, 102);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 30);
@@ -359,7 +311,7 @@
             // label7
             // 
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(9, 42);
+            this.label7.Location = new System.Drawing.Point(9, 63);
             this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 30);
@@ -504,35 +456,35 @@
             // anaMenüToolStripMenuItem
             // 
             this.anaMenüToolStripMenuItem.Name = "anaMenüToolStripMenuItem";
-            this.anaMenüToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.anaMenüToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.anaMenüToolStripMenuItem.Text = "Ana Menü";
             this.anaMenüToolStripMenuItem.Click += new System.EventHandler(this.anaMenüToolStripMenuItem_Click_1);
             // 
             // doktorGirişToolStripMenuItem
             // 
             this.doktorGirişToolStripMenuItem.Name = "doktorGirişToolStripMenuItem";
-            this.doktorGirişToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.doktorGirişToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.doktorGirişToolStripMenuItem.Text = "Doktor Giriş";
             this.doktorGirişToolStripMenuItem.Click += new System.EventHandler(this.doktorGirişToolStripMenuItem_Click_1);
             // 
             // hastaGirişToolStripMenuItem
             // 
             this.hastaGirişToolStripMenuItem.Name = "hastaGirişToolStripMenuItem";
-            this.hastaGirişToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hastaGirişToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.hastaGirişToolStripMenuItem.Text = "Hasta Giriş";
             this.hastaGirişToolStripMenuItem.Click += new System.EventHandler(this.hastaGirişToolStripMenuItem_Click_1);
             // 
             // sekreterGirişToolStripMenuItem
             // 
             this.sekreterGirişToolStripMenuItem.Name = "sekreterGirişToolStripMenuItem";
-            this.sekreterGirişToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sekreterGirişToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.sekreterGirişToolStripMenuItem.Text = "Sekreter Giriş";
             this.sekreterGirişToolStripMenuItem.Click += new System.EventHandler(this.sekreterGirişToolStripMenuItem_Click_1);
             // 
             // çıkışYapToolStripMenuItem
             // 
             this.çıkışYapToolStripMenuItem.Name = "çıkışYapToolStripMenuItem";
-            this.çıkışYapToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.çıkışYapToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.çıkışYapToolStripMenuItem.Text = "Çıkış Yap";
             this.çıkışYapToolStripMenuItem.Click += new System.EventHandler(this.çıkışYapToolStripMenuItem_Click);
             // 
@@ -585,7 +537,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -599,15 +550,12 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label14;
