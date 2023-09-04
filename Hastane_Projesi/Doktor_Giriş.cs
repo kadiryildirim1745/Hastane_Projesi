@@ -23,7 +23,7 @@ namespace Hastane_Projesi
             cmd.Parameters.AddWithValue("@p1", maskedTextBox2.Text);
             cmd.Parameters.AddWithValue("@p2", maskedTextBox1.Text);
             SqlDataReader rd= cmd.ExecuteReader();
-            if (rd != null)
+            if (rd.Read())
             {
                 Doktor_Detay dt = new Doktor_Detay();
                 dt.tc = maskedTextBox2.Text;

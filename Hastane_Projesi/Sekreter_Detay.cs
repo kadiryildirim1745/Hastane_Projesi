@@ -156,6 +156,9 @@ namespace Hastane_Projesi
             Application.Exit();
         }
 
-        
+        private void groupBox6_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
